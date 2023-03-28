@@ -1,0 +1,25 @@
+@media screen and (max-width:450px) {
+    main {
+        width: 320px;
+    }
+
+    .conteudo {
+        padding: 20px;
+    }
+
+    .buttons {
+        display: flex;
+        gap: 10px;
+    }
+
+    .buttons button {
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+    }
+
+    .modal.ativo {
+        width: 320px;
+    }
+    
+}
